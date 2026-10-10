@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -79,4 +88,86 @@ header {
   font-weight: bold;
   cursor: pointer;
  
+}
+.text{
+  margin: 50px;
+}
+.text h6{
+  color: rgb(94, 113, 190);
+  margin: 5px;
+}
+.text h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.text h3 {
+  color: aqua;
+  margin-bottom:10px ;
+}
+.button{
+  margin: 60px;
+}
+.button button{
+  background-color: white;
+  border-radius: 15px;
+  padding: 9px;
+  border:1px solid rgb(230, 214, 214) ;
+}
+.hero{
+  display: flex;
+
+}
+
+
+
+
+.box{
+  background-color: rgb(224, 215, 214);
+  width: 200px;
+  height: 220px;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-top: 50px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+
+  
+
+
+
+}
+ .box img {
+  border-radius:50%;
+  text-align: center;
+  margin-top:40px;
+}
+.box h3 {
+  color: #0789c9;
+  padding: 10px;
+  margin-top: 10px;
+ 
+}
+
+.modern {
+  background: #162932;
+  width: 500px;
+  border-radius: 3px;
+  margin: 50px;
+  color: white;
+
+}
+.lekha {
+  padding: 10px;
+  margin: 5px;
+  
+}
+.get {
+  margin-top: 10px;
+  background-color: rgb(79, 86, 223);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border:1px solid rgb(121, 77, 224) ;
+  font-size: 20px;
 }
